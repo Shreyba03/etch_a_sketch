@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 960px;
+  height: 960px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.grid-square {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
